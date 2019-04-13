@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="txt_login">Đăng Nhập</string>
+    <string name="txt_exit">Thoát</string>
+    <string name="txt_noidung">Nội dung câu hỏi....</string>
+
+    <string name="spinner1_prompt">Chọn biệt danh cho Hòa</string>
+    <string name="spinner2_prompt">Chọn tên bài hát</string>
+    <string name="spinner3_prompt">Chọn tên đẹp</string>
+
+    <string-array name="spinner1">
+        <item name="value1">Hòa đẹp trai</item>
+        <item name="value2">Hòa xấu trai</item>
+        <item name="value3">Hòa đẹp trai vô đối</item>
+        <item name="value4">Hòa hiếu học</item>
+    </string-array>
+    <string-array name="spinner2">
+        <item name="value1">Hoa dã quỳ</item>
+        <item name="value2">Hoa quỳnh</item>
+        <item name="value3">Hoa nở về đêm</item>
+        <item name="value4">Hoa học trò</item>
+    </string-array>
+    <string-array name="spinner3">
+        <item name="value2">Nam</item>
+        <item name="value3">Dung</item>
+        <item name="value1">Tiên</item>
+        <item name="value4">Thảo</item>
+    </string-array>
+    <string name="btnPrevious">&#60;</string>
+    <string name="btnNext">&#62;</string>
+</resources>

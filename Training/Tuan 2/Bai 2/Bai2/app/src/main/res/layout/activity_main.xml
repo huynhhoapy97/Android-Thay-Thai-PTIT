@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/chkWing"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="Wing" />
+
+        <CheckBox
+            android:id="@+id/chkDress"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="Dress" />
+
+        <CheckBox
+            android:id="@+id/chkHat"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Hat" />
+
+        <CheckBox
+            android:id="@+id/chkGlasses"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Glasses" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgPicture"
+            android:layout_width="294dp"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/body" />
+    </LinearLayout>
+
+</LinearLayout>

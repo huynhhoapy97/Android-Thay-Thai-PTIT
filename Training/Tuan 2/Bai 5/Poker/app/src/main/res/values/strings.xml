@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Poker</string>
+    <string name="content">Anh Nen</string>
+    <string name="bai_1">La thu 1</string>
+    <string name="bai_2">La thu 2</string>
+    <string name="bai_3">La thu 3</string>
+    <string name="defau">Điểm Số</string>
+    <string name="btn_play">PLAY </string>
+</resources>

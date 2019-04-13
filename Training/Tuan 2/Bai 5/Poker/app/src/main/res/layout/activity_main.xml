@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/content"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bg" />
+
+        <ImageView
+            android:id="@+id/img_1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/bai_1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_back" />
+
+        <ImageView
+            android:id="@+id/img_2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/bai_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_back" />
+
+        <ImageView
+            android:id="@+id/img_3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/bai_3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/blue_back" />
+
+        <TextView
+            android:id="@+id/txt_score"
+            android:layout_width="410dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="250dp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="5dp"
+            android:text="@string/defau"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="300dp"
+            android:onClick="playAgain"
+            android:text="@string/btn_play"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

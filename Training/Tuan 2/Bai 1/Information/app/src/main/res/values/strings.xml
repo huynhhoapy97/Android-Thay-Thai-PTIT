@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Information</string>
+    <string name="tenphanmem">Thông Tin Cá Nhân</string>
+    <string name="hoten">Họ Tên:</string>
+    <string name="yeucau"><![CDATA[Tên >=3 Ký Tự]]></string>
+    <string name="cmnd">CMND</string>
+    <string name="yeucaucmnd">Nhập đúng 9 chữ số</string>
+    <string name="bangcap">BẰNG CẤP</string>
+    <string name="tc">Trung Cấp</string>
+    <string name="cd">Cao Đẳng</string>
+    <string name="dh">Đại Học</string>
+    <string name="sothich">Sở Thích</string>
+    <string name="check1">Đọc Báo</string>
+    <string name="check2">Đọc Sách</string>
+    <string name="check3">Đọc Coding</string>
+    <string name="thongtinbosung">Thông Tin Bổ Sung</string>
+    <string name="thongtin">Nhập thông tin bổ sung - có thể để trống</string>
+    <string name="gui">Gửi Thông Tin</string>
+    <string name="clsoe">ĐÓng</string>
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="622dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/tenphanmem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:lineSpacingExtra="18sp"
+            android:text="@string/tenphanmem"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/texthoten"
+                    android:layout_width="134dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hoten"
+                    android:textAlignment="viewStart" />
+
+                <EditText
+                    android:id="@+id/edt_ten"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/yeucau"
+                    android:inputType="textPersonName"
+                    android:textAlignment="textStart"
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/cmnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cmnd" />
+
+                <EditText
+                    android:id="@+id/edt_cmnd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/yeucaucmnd"
+                    android:inputType="textPersonName" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textbangcap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:lineSpacingExtra="18sp"
+            android:text="@string/bangcap"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rd1"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/tc" />
+
+                <RadioButton
+                    android:id="@+id/rd2"
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cd" />
+
+                <RadioButton
+                    android:id="@+id/rd3"
+                    android:layout_width="109dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dh" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textsothich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:lineSpacingExtra="18sp"
+            android:text="@string/sothich"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:text="@string/check1" />
+
+            <CheckBox
+                android:id="@+id/check2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="@string/check2" />
+
+            <CheckBox
+                android:id="@+id/check3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check3" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textthongtin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:lineSpacingExtra="18sp"
+            android:text="@string/thongtinbosung"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt_bosung"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:ems="10"
+            android:hint="@string/thongtin"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_gui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="xuLyGuiThongTin"
+            android:text="@string/gui"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</LinearLayout>

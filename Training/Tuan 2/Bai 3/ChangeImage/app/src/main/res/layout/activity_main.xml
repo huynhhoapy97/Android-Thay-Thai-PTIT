@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/groupAnimal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radBird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bird" />
+
+        <RadioButton
+            android:id="@+id/radCat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cat" />
+
+        <RadioButton
+            android:id="@+id/radDog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dog" />
+
+        <RadioButton
+            android:id="@+id/radRabbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rabbit" />
+
+        <RadioButton
+            android:id="@+id/radPig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Pig" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgAnimal"
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_weight="2"
+        app:srcCompat="@drawable/bird" />
+</LinearLayout>

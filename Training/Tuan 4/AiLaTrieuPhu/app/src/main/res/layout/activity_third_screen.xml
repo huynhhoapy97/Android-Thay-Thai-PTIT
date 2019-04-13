@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdScreenActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/txtQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nội dung câu hỏi số 2 ..."
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1 chân " />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 2 chân"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 3 chân "/>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 4 chân"
+                    android:layout_marginLeft="40dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="@string/btnPrevious"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="Result"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+
+            android:text="@string/btnNext"
+            android:textSize="25sp" />
+    </TableRow>
+
+</LinearLayout>
