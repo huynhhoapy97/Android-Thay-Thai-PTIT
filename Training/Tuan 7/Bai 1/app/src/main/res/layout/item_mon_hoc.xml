@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Mã MH"
+            android:id="@+id/txtMa"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGray"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Tên MH"
+            android:id="@+id/txtTen"
+            android:gravity="center_vertical"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Số tiết"
+            android:id="@+id/txtSoTiet"
+            android:gravity="center_vertical"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGray"/>
+
+    </LinearLayout>
+
+</LinearLayout>
