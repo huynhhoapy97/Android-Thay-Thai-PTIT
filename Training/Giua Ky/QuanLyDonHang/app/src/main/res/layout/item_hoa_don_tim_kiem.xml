@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/txtMaHang"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorWords"
+                android:textSize="24dp"
+                android:text="Tên hàng"
+                android:gravity="center_vertical|center_horizontal"
+                android:id="@+id/txtTenHang"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:id="@+id/txtDonGia"
+                    android:text="Đơn giá"
+                    android:layout_marginRight="1dp"
+                    android:gravity="center_vertical|right"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:id="@+id/txtDonViTinh"
+                    android:text="Đơn vị"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center_vertical|left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:layout_weight="2"
+                    android:text="Số lượng: "
+                    android:gravity="center_vertical|right"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:gravity="center_vertical|center_horizontal"
+                    android:id="@+id/txtSoLuong"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

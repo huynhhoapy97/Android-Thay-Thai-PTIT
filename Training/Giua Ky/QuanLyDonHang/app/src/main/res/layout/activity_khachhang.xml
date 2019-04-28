@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWords"
+        android:background="@color/colorBackground"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="QUẢN LÝ KHÁCH HÀNG"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="18dp"
+            android:text="HỌ TÊN: "
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtHoTen"
+            android:layout_height="wrap_content"
+            android:hint="Vui lòng nhập đầy đủ thông tin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="18dp"
+            android:text="ĐỊA CHỈ: "
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtDiaChi"
+            android:layout_height="wrap_content"
+            android:hint="Vui lòng nhập đầy đủ thông tin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:textSize="18dp"
+            android:text="SĐT: "
+            android:textColor="@color/colorGray"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edtDienThoai"
+            android:layout_height="wrap_content"
+            android:hint="Vui lòng nhập đầy đủ thông tin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Thêm"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWords"
+            android:background="@color/colorBackground"
+            android:id="@+id/btnThem"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Xóa"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWords"
+            android:background="@color/colorBackground"
+            android:id="@+id/btnXoa"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Sửa"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWords"
+            android:background="@color/colorBackground"
+            android:id="@+id/btnSua"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="Hủy"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWords"
+            android:background="@color/colorBackground"
+            android:id="@+id/btnHuy"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/colorBackground"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Tìm kiếm theo họ tên hoặc số điện thoại"
+        android:id="@+id/edtTimKiem"
+        android:background="@drawable/border"/>
+
+    <ListView
+        android:id="@+id/lvKhachHang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+</LinearLayout>

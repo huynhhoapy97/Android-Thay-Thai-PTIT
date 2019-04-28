@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_listview_luachon">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Họ tên"
+        android:id="@+id/txtHoTen"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWords"
+        android:background="@color/colorBackground"
+        android:gravity="center_vertical|center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Điện thoại"
+        android:id="@+id/txtDienThoai"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Địa chỉ"
+        android:id="@+id/txtDiaChi"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="5dp"/>
+
+
+</LinearLayout>

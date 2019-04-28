@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/border_listview_luachon">
+
+     <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="Mã"
+        android:id="@+id/txtMaHang"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"
+        android:gravity="center_vertical|center_horizontal" />
+
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="100dp"
+         android:layout_weight="3"
+         android:orientation="vertical"
+         android:id="@+id/layout">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:text="Tên Mặt Hàng "
+             android:id="@+id/txtTenHang"
+             android:textSize="24dp"
+             android:textStyle="bold"
+             android:textColor="@color/colorWords"
+             android:background="@color/colorBackground"
+             android:gravity="center_vertical|center_horizontal"/>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:orientation="horizontal">
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="Đơn Giá"
+                 android:id="@+id/txtDonGia"
+                 android:gravity="center_vertical|right"
+                 android:layout_marginRight="1dp"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:textColor="@color/colorBackground"/>
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="Đơn vị"
+                 android:id="@+id/txtDonVi"
+                 android:gravity="center_vertical|left"
+                 android:layout_marginLeft="1dp"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:textColor="@color/colorBackground"/>
+
+         </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

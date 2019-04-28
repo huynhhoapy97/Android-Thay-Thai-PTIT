@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="1"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBackground"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/txtSoThuTu"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/colorBackground">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/colorWords"
+                android:textSize="24dp"
+                android:text="Mã:"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|right"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/colorWords"
+                android:textSize="24dp"
+                android:text="#8668"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical|left"
+                android:id="@+id/txtMaHang"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tên"
+                    android:textSize="18dp"
+                    android:textColor="@color/colorGray"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/txtTenHang"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/tru"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/imgGiam"/>
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="24dp"
+                    android:text="SL"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorGray"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:id="@+id/txtSoLuong"/>
+
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/cong"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/imgTang"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal|center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/huy"
+                    android:id="@+id/imgXoa"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
