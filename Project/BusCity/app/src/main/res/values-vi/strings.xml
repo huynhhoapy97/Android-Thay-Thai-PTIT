@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BusCity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txtTitle">Cập nhật dữ liệu</string>
+    <string name="btnUpdate">Cập nhật</string>
+    <string name="txtInstructionList">Danh sách chỉ dẫn</string>
+    <string name="txtFromInstructionList">Từ: </string>
+    <string name="txtToInstructionList">Đến: </string>
+    <string name="txtTitleFind">Tìm kiếm tuyến</string>
+    <string name="txtOriginPosition">Xuất phát: </string>
+    <string name="txtDestinationPosition">Đích đến: </string>
+    <string name="hintOrigin">Nhập điểm xuất phát ở đây</string>
+    <string name="hintDestination">Nhập đích đến ở đây</string>
+    <string name="btnFind">Tìm</string>
+    <string name="btnExit">Thoát</string>
+    <string name="txtTitleInformation">Bus City\nXe buýt Thành phố Hồ Chí Minh</string>
+    <string name="txtVersion">* Phiên bản: 1.0</string>
+    <string name="txtAuthor">* Tác giả: BusCity Team - PTIT HoChiMinh</string>
+    <string name="txtDetail">* Bus City được mô phỏng từ ứng dụng Bus Map của tác giả Lê Yên Thanh</string>
+    <string name="btnCloseInformation">Đóng</string>
+    <string name="txtFromDetailInstruction">Từ: </string>
+    <string name="txtToDetailInstruction">Đến: </string>
+    <string name="txtWalkDetailInstruction">Đi bộ: </string>
+    <string name="txtBusDetailInstruction">Đi buýt: </string>
+    <string name="txtTitleLanguage">Chọn ngôn ngữ</string>
+    <string name="btnOKLanguage">Chọn</string>
+    <string name="btnCloseLanguage">Hủy</string>
+    <string name="txtTitleSearch">Tra cứu tuyến</string>
+    <string name="txtSearch">Tìm kiếm: </string>
+    <string name="txtNumberRoute">Tuyến: </string>
+    <string name="txtRouteName">Tên: </string>
+    <string name="txtActivityTime">Thời gian hoạt động: </string>
+    <string name="txtGoOn">Lượt đi: </string>
+    <string name="txtGoBack">Lượt về: </string>
+    <string name="txtLength">Chiều dài tuyến: </string>
+    <string name="txtRunTime">Thời gian chạy: </string>
+    <string name="txtSpacingTime">Giãn cách tuyến: </string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "202344733157",
+    "firebase_url": "https://eminent-clover-240610.firebaseio.com",
+    "project_id": "eminent-clover-240610",
+    "storage_bucket": "eminent-clover-240610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202344733157:android:ff52d05bdadb2c4f",
+        "android_client_info": {
+          "package_name": "truonghuynhhoa.ptit.buscity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202344733157-iv3996htd3jq5k13pukes3nm0corr0vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9nzDrxr3Vbov0fjJuZioqdEwuRxKpfGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202344733157-iv3996htd3jq5k13pukes3nm0corr0vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
